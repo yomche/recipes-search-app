@@ -8,7 +8,7 @@ import { Recipe } from "./pages/Recipe";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/recipes-search-app">
       <Header />
       <main className="container content">
         <Switch>
